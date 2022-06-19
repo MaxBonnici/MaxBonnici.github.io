@@ -1,0 +1,70 @@
+/*
+  importation des sprites
+*/
+
+.tab {
+  display: flex;
+  
+}
+
+.terre {
+  background: url("../img/terre.jfif")  ;
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.rocher {
+  background: url("../img/Pierre.png");
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.diamant {
+  background: url("../img/Diamant.gif");
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.mur {
+  background: url("../img/mur.jfif");
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.vide {
+  background-color: rgb(97,97,97);
+  width: 32px;
+  height: 32px;
+}
+
+.player {
+  background: url("../img/Personnage.png");
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.black{
+  background: url("../img/Black.png");
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.white{
+  background: url("../img/White.png");
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+#grille {
+  color: rgb(94,94,94);
+  align-self: center;
+  background-repeat: no-repeat;
+
+}

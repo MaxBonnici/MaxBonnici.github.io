@@ -1,0 +1,20 @@
+/*
+    ajustement de l'image de fond
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(../img/backgrnd.gif) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*
+    supression du trait sous lien
+*/
+
+a {
+    text-decoration: none;
+}
+

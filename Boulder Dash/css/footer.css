@@ -1,0 +1,20 @@
+/*
+    alignement du lien surprise
+*/
+
+footer > a {
+  bottom: 0;
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+  color: red;
+}
+
+/*
+    taille qui change lorsque la souris passe sur le lien
+*/
+
+footer > a:hover {
+  font-size: 200%;
+  text-transform: uppercase;
+}

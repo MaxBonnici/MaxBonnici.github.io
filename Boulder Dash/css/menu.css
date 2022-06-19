@@ -1,0 +1,35 @@
+/*
+    importe la police d'écriture des boutons
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*
+    alignement des boutons
+*/
+
+#home {
+    align-self: center;
+    margin-top: 100px;
+}
+  
+#home > button {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 165px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+/*
+   changement de couleur lorsque la souris passe sur le bouton
+*/
+
+#home > button:hover {
+    color: grey;
+    background-color: white;
+}

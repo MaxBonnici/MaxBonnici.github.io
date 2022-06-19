@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Syncopate&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black !important;
+    background-color: #f7f7f7 !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #003;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* *********************** HEADER *********************** */
+.navbar {
+    background-color: #fafafa;
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7s;
+}
+
+.navbar-nav {
+    width: 80% !important;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+    height: 100vh;
+    background: url(media/header.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+}
+
+h1 {
+    padding: 90px 0 10px 0;
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    font-size: 4.3em;
+}
+
+#line{
+    height: 1px;
+    background-color: #b3b3b3;
+    width: 25%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 3em;
+    padding: 20px 0 50px 0;
+    text-transform: uppercase;
+}
+
+.presentation {
+    height: 240px;
+    margin-top: 20px;
+}
+
+
+.infos {
+    border: 1px solid #b3b3b3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.photo {
+    border: 1px solid #b3b3b3;
+    position: relative;
+}
+
+.photo img {                /*centre la photo*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    max-width: 90%; /*taille max de la photo*/
+    border-radius: 3px;
+    box-shadow: 0 0 4px #111;  /*ombre*/
+}
+
+header .button {
+    margin-top: 45px;
+}
+
+header .button a {
+    padding: 20px 80px;
+    border: 1px solid #b3b3b3;
+    width: 300px;
+}
+
+header .button:hover a {
+    background-color: #b3aca7;
+    color: #e2dedb;
+    transition: all O.3s ease-in-out;
+    text-decoration: none;
+}
+
+
+#typed > a:hover {
+    text-decoration: none;
+    text-transform: none;
+}
